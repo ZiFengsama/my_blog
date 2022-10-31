@@ -1,0 +1,62 @@
+// out: ../css/index.css
+@import './base.less';
+@vh:9vh;
+.navbar-default {
+    padding: 20px 60px;
+    height: 90px;
+    background-color: #fff!important;
+    border: none!important;
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+        .navbar-collapse {
+            .navbar-left {
+                display: flex!important;
+                width: 800px;
+                margin-left: 370px;
+                li {
+                    width: 160px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+    
+// 主体部分
+.main {
+    #fullpage {
+        // 公共样式
+        .page_normal {
+            height: (900 / @vh);
+            padding-top: (90 / @vh);
+        }
+        // 公共样式
+
+        // 第一页
+        .one {
+            .row {
+                margin-top: 90px;
+                .main_left {
+                    height: 100%;
+                    line-height: 100%;
+                }
+                .main_right {
+                    height: 100%;
+                }
+            }
+        }
+        // 第一页
+
+        // 第二页
+        .two {
+            margin-top: 90px;
+            background-color: skyblue;
+        }
+        // 第二页
+        
+    }
+    
+
+}
+// 主体部分
