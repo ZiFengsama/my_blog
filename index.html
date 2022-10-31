@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./lib/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/iconfont/iconfont.css">
+    <link rel="stylesheet" href="./lib/dist/fullpage.css">
+    <script src="./lib/js/jquery.js"></script>
+    <script src="./lib/dist/fullpage.min.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="" alt=""></a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active"><a href="#">主页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link1</a></li>
+                    <li><a href="#">Link2</a></li>
+                    <li><a href="#">Link3</a></li>
+                    <li><a href="#">Link4</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                <li class="register"><a href="#">了解更多</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+    </nav>
+    <!-- header -->
+
+    <!-- 主体部分 -->
+    <div class="main">
+        <div id="fullpage">
+            <div class="section one">
+                <div class="container firstpage page_normal">
+                    <div class="row">
+                        <div class="main_left col-md-6">
+                            <h1>赵江涛</h1>
+                            <h2>前端开发工程师</h2>
+                            <p>一名对前端技术及其感兴趣的大学生</p>
+                        </div>
+                        <div class="main_right col-md-6">
+                            <img src="./upload/images/IMG_20221026_175308.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section two">
+                <div class="container secondpage page_normal">
+                    <div class="row">
+                        <div class="main_left col-md-6">
+                            <img src="./upload/images/IMG_20221026_175308.png" alt="">
+                        </div>
+                        <div class="main_right col-md-6">
+                            <h1>About Me</h1>
+                            <h2>前端开发工程师</h2>
+                            <p>就读于电子科技大学成都学院，数据科学与大数据技术专业。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section three">
+                <div class="container thirdpage page_normal">
+                    <div class="row">
+                        <div class="main_left col-md-6">
+                            <h1>赵江涛</h1>
+                            <h2>前端开发工程师</h2>
+                            <p>就读于电子科技大学成都学院，数据科学与大数据技术专业。</p>
+                        </div>
+                        <div class="main_right col-md-6">
+                            <img src="./upload/images/IMG_20221026_175308.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section four">
+                <div class="container fourthpage page_normal">
+                    <div class="row">
+                        <div class="main_left col-md-6">
+                            <h1>赵江涛</h1>
+                            <h2>前端开发工程师</h2>
+                            <p>一名对前端技术及其感兴趣的大学生</p>
+                        </div>
+                        <div class="main_right col-md-6">
+                            <img src="./upload/images/IMG_20221026_175308.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+
+        
+
+        
+
+        
+    </div>
+    <!-- 主体部分 -->
+
+    
+    <script src="./lib/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                //options here
+                autoScrolling:true,
+                scrollHorizontally: true
+            });
+
+            //methods
+            // $.fn.fullpage.setAllowScrolling(false);
+        });
+    </script>
+</body>
+</html>
